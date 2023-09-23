@@ -1,0 +1,14 @@
+---
+title: 'Test MDX'
+description: 'Lorem ipsum dolor sit amet'
+pubDate: 'Sep 23 2023'
+---
+
+# Both images can be used together here in *.mdx
+
+import { Image } from 'astro:assets';
+import Puppy from '../../assets/puppy.jpg';
+import Parrot from '../../assets/parrot.jpg';
+
+<Image src={Puppy} alt={`Puppy`} />
+<Image src={Parrot} alt={`Parrot`} />
